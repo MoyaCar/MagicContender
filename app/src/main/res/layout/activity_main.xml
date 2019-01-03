@@ -56,21 +56,24 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
-                android:text="Win" />
+                android:text="Win"
+                android:onClick="WinpointsPlayerA"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
-                android:text="Draw" />
+                android:text="Draw"
+                android:onClick="DrawpointsPlayerA"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
-                android:text="Mulligan" />
+                android:text="Mulligan"
+                android:onClick="MulligansPlayerA"/>
         </LinearLayout>
 
         <View
@@ -123,21 +126,24 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
-                android:text="Win" />
+                android:text="Win"
+                android:onClick="WinpointsPlayerB"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
-                android:text="Draw" />
+                android:text="Draw"
+                android:onClick="DrawpointsPlayerB"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
-                android:text="Mulligan" />
+                android:text="Mulligan"
+                android:onClick="MulligansPlayerB"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -152,7 +158,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="8dp"
-            android:text="reset" />
+            android:text="reset"
+            android:onClick="ResetButton"/>
 
     </LinearLayout>
 </LinearLayout>

@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
     public void MulligansPlayerB(View view) {
 
         mulligansCounterPlayerB = mulligansCounterPlayerB + 1;
-        MulligansTextViewPlayerA(mulligansCounterPlayerB);
+        MulligansTextViewPlayerB(mulligansCounterPlayerB);
     }
 
     //Reset Button
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         PointsTextViewPlayerA(pointsCounterPlayerA);
         MulligansTextViewPlayerA(mulligansCounterPlayerA);
         PointsTextViewPlayerB(pointsCounterPlayerB);
-        MulligansTextViewPlayerA(mulligansCounterPlayerB);
+        MulligansTextViewPlayerB(mulligansCounterPlayerB);
 
     }
 
